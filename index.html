@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MutiaCoffe One Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Mutia<span>Coffe</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#testimonials">Testimoni</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Temukan kopi Terbaik dari produk kami untuk  Anda</h1>
+                <p>MutiaCoffe terpercaya dengan ribuan produk berkualitas dari biji kopi yang premium</p>
+                <a href="#products" class="btn-primary">Jelajahi Produk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang MutiaCoffe</h2>
+                <p>Kenali lebih dekat marketplace kami</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="kopikita/opening.jpeg" alt="Tentang Kami">
+                </div>
+                <div class="about-text">
+                    <h3> MutiaCoffe Terpercaya Sejak 2020</h3>
+                    <p>MutiaCoffe hadir sebagai solusi untuk menghilangkan suntuk anda dengan menikmati secangkir kopi. Kami menghubungkan pembeli dengan penjual terbaik di seluruh Indonesia.</p>
+                    <p>Visi kami adalah menjadi marketplace terdepan yang mengutamakan kualitas produk dan kepuasan pelanggan. Dengan tim yang berpengalaman, kami berkomitmen memberikan layanan terbaik untuk semua penikmat kopi.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>10K+</h4>
+                            <p>Produk</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>9.5K+</h4>
+                            <p>Pelanggan</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>800+</h4>
+                            <p>Penjual</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Produk Kami</h2>
+                <p>Temukan berbagai produk berkualitas</p>
+            </div>
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">Semua</button>
+                <button class="category-btn" data-category="electronics">Kopi Arabika Gayo</button>
+                <button class="category-btn" data-category="fashion">Biji</button>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="kopi Robustan">
+                    <div class="product-image">
+                        <img src="kopikita/kopi 1.jpeg" alt="Kopi Robustan">
+                        <div class="product-tag">Baru</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Robustan</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(120)</span>
+                        </div>
+                        <p class="product-price">Rp 30.000</p>
+                        <button class="btn-secondary">Beli Sekarang</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" data-category="Kopi">
+                    <div class="product-image">
+                        <img src="kopikita/kopi 9.jpeg" alt="Kopi Latte">
+                        <div class="product-tag">Diskon</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Latte</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(85)</span>
+                        </div>
+                        <p class="product-price"><span class="old-price">Rp 35.000</span> Rp 25.000</p>
+                        <button class="btn-secondary">Beli Sekarang</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card" data-category="home">
+                    <div class="product-image">
+                        <img src="kopikita/kopi 3.jpeg" alt="Kopi Arabika Gayo">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Arabika Gayo</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(210)</span>
+                        </div>
+                        <p class="product-price">Rp 35.000</p>
+                        <button class="btn-secondary">Beli Sekarang</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card" data-category="Kopikita">
+                    <div class="product-image">
+                        <img src="kopikita/kopi 4.jpeg" alt="Kopi Ekspresso">
+                        <div class="product-tag">Terlaris</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Ekspresso</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(320)</span>
+                        </div>
+                        <p class="product-price">Rp 35.000</p>
+                        <button class="btn-secondary">Beli Sekarang</button>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card" data-category="Kopi">
+                    <div class="product-image">
+                        <img src="kopikita/kopi 5.jpeg" alt="kopi Emirikano">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Emirikano</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(75)</span>
+                        </div>
+                        <p class="product-price">Rp 35.000</p>
+                        <button class="btn-secondary">Beli Sekarang</button>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card" data-category="home">
+                    <div class="product-image">
+                        <img src="kopikita/kopi 8.jpeg" alt="Kopi Cold Brew">
+                        <div class="product-tag">Diskon</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Cold Brew</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(95)</span>
+                        </div>
+                        <p class="product-price"><span class="old-price">Rp 50.000</span> Rp 30.000</p>
+                        <button class="btn-secondary">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products-cta">
+                <a href="#" class="btn-primary">Lihat Semua Produk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimoni Pelanggan</h2>
+                <p>Apa kata mereka tentang kami</p>
+            </div>
+            <div class="testimonials-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="images/ravel.jpeg" alt="Ravel">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Saya sangat puas beli kopi di MutiaCoffe. kopinya berkualitas, pengiriman cepat, dan layanan pelanggan sangat responsif. Pasti akan beli lagi di sini!"</p>
+                        <div class="testimonial-author">
+                            <h4>Ravel</h4>
+                            <p>Aceh tenggara</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="images/Mutia.jpeg" alt="Mutia">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Harga di MutiaCoffe sangat ramah dan banyak promo menarik. Saya sudah berlangganan selama 2 tahun dan belum pernah kecewa dengan layanannya."</p>
+                        <div class="testimonial-author">
+                            <h4>Mutia</h4>
+                            <p>Jantho</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="images/Niken.jpeg" alt="Niken">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Proses pembelian sangat mudah dan aman. Saya suka fitur pelacakan pesanan yang memungkinkan saya memantau status pengiriman secara real-time."</p>
+                        <div class="testimonial-author">
+                            <h4>Niken</h4>
+                            <p>Sumut</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button id="prev-testimonial" class="testimonial-control-btn"><i class="fas fa-chevron-left"></i></button>
+                <button id="next-testimonial" class="testimonial-control-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <p>Kami siap membantu Anda</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Alamat</h3>
+                            <p>Jl. Banda aceh medan  No. 248, kota banda aceh, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p>+62 877 1320 3838</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@MutiCoffe.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Jam Operasional</h3>
+                            <p>Senin - Jumat: 08.00 - 18.00</p>
+                            <p>Sabtu: 09.00 - 17.30</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pertanyaan Umum</h2>
+                <p>Temukan jawaban atas pertanyaan yang sering diajukan</p>
+            </div>
+            <div class="faq-content">
+                <div class="accordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Bagaimana cara order di MutiaCoffe?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Order kopi di MutiaCoffe sangat mudah. Anda cukup membuat akun, mencari produk yang diinginkan, melakukan pemesanan, dan melakukan pembayaran. Setelah pembayaran dikonfirmasi, pesanan Anda akan segera diproses dan dikirim.</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Metode pembayaran apa saja yang tersedia?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Kami menerima berbagai metode pembayaran, termasuk transfer bank, kartu kredit/debit, e-wallet (OVO, GoPay, DANA, LinkAja), dan pembayaran melalui minimarket (Indomaret, Alfamart).</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Berapa lama waktu pengiriman?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Waktu pengiriman bervariasi tergantung jarak pemesan. 
+                    </div>
+                    <!-- FAQ Item 4 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Bagaimana kebijakan pengembalian produk?</span>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Kami menerima pengembalian produk dalam waktu 1 x 24 jam setelah penerimaan jika produk rusak dan tidak dapat dikonsumsi. Dan kami akan mengganti produk yang rusak.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Mutia<span>Coffe</span></h2>
+                    <p>MutiaCoffe terpercaya sebagai kopi yang premium.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h3>Tautan Cepat</h3>
+                        <ul>
+                            <li><a href="#hero">Beranda</a></li>
+                            <li><a href="#about">Tentang Kami</a></li>
+                            <li><a href="#products">Produk</a></li>
+                            <li><a href="#testimonials">Testimoni</a></li>
+                            <li><a href="#contact">Kontak</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h3>Kategori</h3>
+                        <ul>
+                            <li><a href="#">Kopi</a></li>
+                            <li><a href="#">Biji Kopi </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h3>Layanan</h3>
+                        <ul>
+                            <li><a href="#">Cara Berbelanja</a></li>
+                            <li><a href="#">Metode Pembayaran</a></li>
+                            <li><a href="#">Pengiriman</a></li>
+                            <li><a href="#">Pengembalian Produk</a></li>
+                            <li><a href="#">Garansi</a></li>
+                            <li><a href="#">Bantuan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Berlangganan Newsletter</h3>
+                    <p>Dapatkan informasi terbaru dan penawaran menarik dari MutiaCoffe</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Alamat Email Anda" required>
+                        <button type="submit">Langganan</button>
+                    </form>
+                    <div class="payment-methods">
+                        <h4>Metode Pembayaran</h4>
+                        <div class="payment-icons">
+                            <img src="kopikita/dana.png" alt="Dana">
+                            <img src="kopikita/paypal.png" alt="Paypal">
+                            <img src="kopikita/mastercard.png" alt="Mastercard">
+                            <img src="kopikita/bank transfer.png" alt="Bank Transfer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MutiaCoffe. Hak Cipta Dilindungi.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Syarat & Ketentuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#hero" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
